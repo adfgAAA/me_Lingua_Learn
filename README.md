@@ -33,3 +33,19 @@ git clone https://github.com/kullanici-adi/language-learning-platform.git
 cd language-learning-platform
 pnpm install
 pnpm dev
+
+language-learning-platform/
+├── app/
+│   ├── login/, register/, dashboard/, courses/, course/[id]/
+│   └── api/auth/, api/progress/
+├── components/
+│   ├── ui/                # UI bileşenleri
+│   ├── theme-provider.tsx
+│   └── language-switcher.tsx
+├── public/
+├── styles/
+│   └── globals.css
+├── package.json
+├── tailwind.config.ts
+└── tsconfig.json
+
